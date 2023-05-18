@@ -1,0 +1,16 @@
+npm init
+npm i --save-dav typescript
+npx tsc --init
+"outDir": "./dist",
+
+
+// error
+npm i -D eslint 
+npx eslint --init
+
+in file '.eslint.js'
+"env": {
+        "node": true, // from "browser"
+        "es2021": true
+    }
+---> npx eslint . --ext .ts
